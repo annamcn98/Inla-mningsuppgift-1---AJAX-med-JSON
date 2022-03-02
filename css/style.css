@@ -1,0 +1,32 @@
+#container, #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#container, #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#fetchBtn, #fetchBtn2 {
+   border-radius: 30px;
+   padding: 10px;
+}
+
+#img1 {
+    max-width: 500px;
+    margin-top:50px;
+}
+#firstImg, #secondImg, #thirdImg {
+    max-width: 300px;
+    max-height: 400px;
+}
+
+#images3 {
+    width: 950px;
+    height: 400px;
+    margin-top: 30px;
+}
