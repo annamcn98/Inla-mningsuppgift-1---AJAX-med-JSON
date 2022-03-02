@@ -13,12 +13,17 @@
 
 #fetchBtn, #fetchBtn2 {
    border-radius: 30px;
+   border: none;
    padding: 10px;
+   background-color: black;
+   color: white;
+   margin: 10px 0px;
 }
 
 #img1 {
     max-width: 500px;
-    margin-top:50px;
+    max-height: 500;
+    margin-top: 10px;
 }
 #firstImg, #secondImg, #thirdImg {
     max-width: 300px;
@@ -29,4 +34,15 @@
     width: 950px;
     height: 400px;
     margin-top: 30px;
+}
+
+hr {
+    width:50%;
+    height:2px;
+    border: none;
+    background-color:black;
+    margin:50px 0px;
+}
+p {
+    margin-bottom: 10px;
 }
