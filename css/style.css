@@ -4,21 +4,29 @@
     align-items: center;
     flex-direction: column;
 }
+#container, #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-#fetchBtn {
+#fetchBtn, #fetchBtn2 {
    border-radius: 30px;
-   background-color: rgb(211, 186, 218);
-   font-size: medium;
-   border: 3px solid rgb(206, 151, 221);
-   padding: 20px;
+   padding: 10px;
 }
 
-
-#fetchBtn:hover {
-   background-color: 3px solid rgb(206, 151, 221);
-}
-
-img {
+#img1 {
     max-width: 500px;
     margin-top:50px;
+}
+#firstImg, #secondImg, #thirdImg {
+    max-width: 300px;
+    max-height: 400px;
+}
+
+#images3 {
+    width: 950px;
+    height: 400px;
+    margin-top: 30px;
 }
