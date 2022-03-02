@@ -1,0 +1,24 @@
+#container, #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#fetchBtn {
+   border-radius: 30px;
+   background-color: rgb(211, 186, 218);
+   font-size: medium;
+   border: 3px solid rgb(206, 151, 221);
+   padding: 20px;
+}
+
+
+#fetchBtn:hover {
+   background-color: 3px solid rgb(206, 151, 221);
+}
+
+img {
+    max-width: 500px;
+    margin-top:50px;
+}
